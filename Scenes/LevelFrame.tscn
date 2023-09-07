@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://clc3k76lyxqly"]
+
+[node name="Level" type="Node3D"]
+
+[node name="Camera3D2" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 17.4748)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.0238373, -0.987336, -0.156839, 0.017828, -0.156439, 0.987527, -0.999557, -0.0263362, 0.0138732, 0, 0, 0)

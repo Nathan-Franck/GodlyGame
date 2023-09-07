@@ -2,3 +2,4 @@
 .godot/
 *.blend1
 *.import
+node_modules

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://buqbh3mngavfw"]
+
+[ext_resource type="PackedScene" uid="uid://du85aabstkbre" path="res://Levels/Level1.blend" id="1_5dy6t"]
+
+[node name="3DTest" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 17.4748)
+
+[node name="Level1" parent="." instance=ExtResource("1_5dy6t")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.83435, -14.6972, -7.066)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.0238373, -0.987336, -0.156839, 0.017828, -0.156439, 0.987527, -0.999557, -0.0263362, 0.0138732, 0, 0, 0)

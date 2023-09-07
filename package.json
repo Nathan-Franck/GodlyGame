@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"watch": "tsc --watch --project .",
+		"compile": "tsc --project ."
+	},
+	"devDependencies": {
+		"godot-scene-type": "./addons/godot-scene-type",
+		"typescript": "^5.1.6"
+	},
+	"types": "./scripts/godot.d.ts"
+}
